@@ -1,0 +1,2 @@
+C:\Users\OroVio\Desktop\INGEGNERIA Informatica\Anno II\OOP - Programmazione ad Oggetti\javalab\projects\oop-lab\lab08\81-simple-gui\build\classes\java\main\it\unibo\mvc\MiniGUI$1.class
+C:\Users\OroVio\Desktop\INGEGNERIA Informatica\Anno II\OOP - Programmazione ad Oggetti\javalab\projects\oop-lab\lab08\81-simple-gui\build\classes\java\main\it\unibo\mvc\MiniGUI.class
