@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="12.1.1">
+<file name="C:\Users\OroVio\Desktop\INGEGNERIA Informatica\Anno II\OOP - Programmazione ad Oggetti\javalab\projects\oop-lab\lab08\82-tdd-deathnote\src\test\java\it\unibo\deathnote\TestDeathNote.java">
+<error line="1" severity="error" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="3" column="47" severity="error" message="Using the &apos;.*&apos; form of import should be avoided - org.junit.jupiter.api.Assertions.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="33" column="25" severity="error" message="&apos;myNote&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="36" column="42" severity="error" message="The String &quot;L&quot; appears 7 times in the file." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="46" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="48" column="25" severity="error" message="&apos;myNote&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="61" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="72" column="25" severity="error" message="&apos;myNote&apos; hides a field." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="74" column="34" severity="error" message="Variable &apos;exception&apos; should be declared final." source="com.puppycrawl.tools.checkstyle.checks.coding.FinalLocalVariableCheck"/>
+<error line="88" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>

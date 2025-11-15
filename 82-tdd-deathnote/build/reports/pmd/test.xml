@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-15T12:52:42.251">
+<file name="C:\Users\OroVio\Desktop\INGEGNERIA Informatica\Anno II\OOP - Programmazione ad Oggetti\javalab\projects\oop-lab\lab08\82-tdd-deathnote\src\test\java\it\unibo\deathnote\TestDeathNote.java">
+<violation beginline="64" endline="64" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="it.unibo.deathnote" class="TestDeathNote" method="testDeathCause" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+<violation beginline="74" endline="74" begincolumn="34" endcolumn="43" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="it.unibo.deathnote" class="TestDeathNote" method="testDeathSpecific" variable="exception" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'exception' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="23" endcolumn="39" rule="AvoidThrowingRawExceptionTypes" ruleset="Design" package="it.unibo.deathnote" class="TestDeathNote" method="testDeathSpecific" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_design.html#avoidthrowingrawexceptiontypes" priority="1">
+Avoid throwing raw exception type RuntimeException.
+</violation>
+</file>
+</pmd>
