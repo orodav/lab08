@@ -1,11 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-16T19:38:42.478">
-<file name="C:\Users\OroVio\Desktop\INGEGNERIA Informatica\Anno II\OOP - Programmazione ad Oggetti\javalab\projects\oop-lab\lab08\83-mvc-gui-reflection\src\main\java\it\unibo\mvc\LaunchApp.java">
-<violation beginline="40" endline="40" begincolumn="17" endcolumn="48" rule="AvoidAccessibilityAlteration" ruleset="Error Prone" package="it.unibo.mvc" class="LaunchApp" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_errorprone.html#avoidaccessibilityalteration" priority="3">
-You should not modify visibility of constructors, methods or fields using setAccessible()
-</violation>
-<violation beginline="48" endline="48" begincolumn="17" endcolumn="23" rule="SystemPrintln" ruleset="Best Practices" package="it.unibo.mvc" class="LaunchApp" method="main" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.18.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-Usage of System.out/err
-</violation>
-</file>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.18.0" timestamp="2025-11-16T20:13:20.979">
 </pmd>

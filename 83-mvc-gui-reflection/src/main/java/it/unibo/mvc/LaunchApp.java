@@ -25,7 +25,9 @@ public final class LaunchApp {
      * @throws IllegalAccessException in case of reflection issues
      * @throws IllegalArgumentException in case of reflection issues
      */
-    public static void main(final String... args) {
+    public static void main(final String... args) 
+    throws NoSuchMethodException, InstantiationException, IllegalAccessException,
+    InvocationTargetException, ClassNotFoundException {
         final var model = new DrawNumberImpl();
         final DrawNumberController controller = new DrawNumberControllerImpl(model);
         final String[] viewClasses = {
@@ -34,20 +36,14 @@ public final class LaunchApp {
         };
 
         for (final String className : viewClasses) {
-            try {
-                final Class<?> clazz = Class.forName(className);
-                final var constructor = clazz.getDeclaredConstructor();
-                constructor.setAccessible(true);
-                
-                for (int i = 0; i < 3; i++) {
-                    final DrawNumberView view = (DrawNumberView) constructor.newInstance();
-                    controller.addView(view);
-                }
-            } catch (final NoSuchMethodException | InstantiationException | IllegalAccessException
-            | InvocationTargetException | ClassNotFoundException e) {
-                System.err.println("Could not load view: " + className + "due to " + e);
+            final Class<?> clazz = Class.forName(className);
+            final var constructor = clazz.getDeclaredConstructor();
+            for (int i = 0; i < 3; i++) {
+                final DrawNumberView view = (DrawNumberView) constructor.newInstance();
+                controller.addView(view);
             }
         }
     }
 }
+
 
